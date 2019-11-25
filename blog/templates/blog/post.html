@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <article class="media content-section">
+        <div class="media-body">
+            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content }}</p>
+        </div>
+    </article>
+{% endblock content %}
